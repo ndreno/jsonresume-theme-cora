@@ -1,4 +1,4 @@
-#jsonresume-theme-classy
+#jsonresume-theme-cora
 
 An uber-classy theme for JSONResume.
 

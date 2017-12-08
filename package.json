@@ -1,23 +1,23 @@
 {
-  "name": "jsonresume-theme-printclassy",
-  "version": "1.1.1",
+  "name": "jsonresume-theme-cora",
+  "version": "0.0.1",
   "description": "An uber-classy JSONResume theme, that is print friendly too!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Reuben Coutinho",
+  "author": "Marco Pagliari",
   "license": "MIT",
   "dependencies": {
-    "dateformat": "^2.0.0",
+    "dateformat": "^3.0.2",
     "handlebars": "^4.0.6",
-    "lodash": "^2.4.1",
+    "lodash": "^4.17.4",
     "resume-schema": "0.0.16",
-    "tarball-extract": "0.0.3"
+    "tarball-extract": "0.0.6"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/reubenkcoutinho/jsonresume-theme-printclassy.git"
+    "url": "https://github.com/lechuckcaptain/jsonresume-theme-cora.git"
   },
   "keywords": [
     "json",
@@ -27,7 +27,7 @@
     "jsonresume-theme"
   ],
   "bugs": {
-    "url": "https://github.com/reubenkcoutinho/jsonresume-theme-printclassy/issues"
+    "url": "https://github.com/lechuckcaptain/jsonresume-theme-cora.git/issues"
   },
-  "homepage": "https://github.com/reubenkcoutinho/jsonresume-theme-printclassy"
+  "homepage": "https://github.com/lechuckcaptain/jsonresume-theme-cora.git"
 }

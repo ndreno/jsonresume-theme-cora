@@ -1,9 +1,11 @@
 		<header>
+		<h1>{{resume.basics.name}}</h1>
+		<h3 class= "label">{{resume.basics.label}}</h3>
+
 		{{#if resume.basics.picture}}
 			<img src= "{{resume.basics.picture}}" class= "picture">
 		{{/if}}
-		<h1>{{resume.basics.name}}</h1>
-		<h3 class= "label">{{resume.basics.label}}</h3>
+
 		<div class= "contact-header">
 				{{#if resume.basics.location.address}}
 				<span class="address">{{resume.basics.location.address}},</span>
