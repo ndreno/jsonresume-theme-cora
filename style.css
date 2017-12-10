@@ -35,37 +35,7 @@ header {
 
 h1 {
     font-size: 3em;
-    margin-bottom: 0;
-}
-
-.profile {
-    font-family: Montserrat;
-    font-size: 1em;
-    margin: 0;
-}
-
-.contact-header {
-    font-weight: bold;
-}
-
-.label {
-    margin-top: 0;
-    margin-bottom: 1em;
-}
-
-.fa {
-    font-size: 2em;
-}
-
-.left {
-    font-size: 1em;
-}
-
-.main {
-    margin: 0 auto;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 50px;
+    margin-bottom: 0.2em;
 }
 
 h2 {
@@ -81,6 +51,46 @@ h4 {
     color: #4e4e4e;
     font-size: 1.5em;
     margin-top: 0;
+}
+
+.profile {
+    font-family: Montserrat;
+    font-size: 1em;
+    margin: 0.5em;
+}
+
+.contact-header {
+    font-weight: bold;
+    color: #4e4e4e;
+    margin:1em;
+}
+
+.contact-header .fa {
+    font-size: 1.5em;
+}
+
+.profile .fa {
+    font-size: 1.5em;
+}
+
+.label {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.fa {
+    font-size: 2em;
+}
+
+.left {
+    font-size: 1em;
+}
+
+.main {
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
 }
 
 .skills {
@@ -121,14 +131,6 @@ blockquote .name {
 
 .responsive-show {
     display: none;
-}
-
-footer {
-    display: none;
-}
-
-footer p{
-    text-align: center;
 }
 
 .address {
@@ -172,51 +174,50 @@ section.skills {
     }
 }
 
-@media print and (max-width: 483.8pt) {
-    .picture {
-        width: 100px;
-        height: 100px;
-    }
+@media print {
+
     header {
         font-size: 1em;
     }
+    h1 {
+        font-size: 2em;
+    }
     h2 {
-        font-size: 1.75em;
+        font-size: 1.5em;
     }
     h3 {
-        font-size: 1.5em;
+        font-size: 1.2em;
         -webkit-margin-before: 0;
         -webkit-margin-after:0
     }
     h3.label {
         display: none;
     }
-    footer {
-        display: block;
-        position: fixed;
-        bottom:0
+    h4 {
+        font-size: 1.1em;
     }
-    footer p {
-        text-align: center;
-        align-self: center;
-        font-size: 0.75em;
+    p {
+        font-size: 1em;
+    }
+    li { 
+        font-size: 1em;
     }
     .address {
         display: inline-block
     }
+
     .profile {
-        font-size: 1.1em;
+        font-size: 1em;
         display: inline-block
     }
+
     #profiles .contact-header {
         display: none;
     }
+
     #languages,
     #interests {
         display: none;
-    }
-    section.skills {
-        flex-direction: row;
     }
 
     section.skills section {
@@ -228,5 +229,22 @@ section.skills {
 
     .main{
         padding:10px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    section:not(#work) {
+        page-break-inside: avoid;
+    }
+
+    .job {
+        page-break-inside: avoid;
+    }
+
+    @page  
+    { 
+        size: auto;   /* auto is the initial value */ 
+        /* this affects the margin in the printer settings */ 
+        margin: 25mm 10mm;  
     }
 }
