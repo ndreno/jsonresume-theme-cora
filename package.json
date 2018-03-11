@@ -1,6 +1,6 @@
 {
   "name": "jsonresume-theme-cora",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "An uber-classy JSONResume theme, that is print friendly too!",
   "main": "index.js",
   "scripts": {
