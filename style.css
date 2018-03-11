@@ -1,11 +1,11 @@
 body {
-    font-size: 62.5%;
     font-family: Montserrat;
+    font-size:0.8em;
     color: #333333;
 }
 
 .picture {
-    border-radius: 50%;
+    border-radius: 3%;
     margin: 20px;
     width: 100px;
     height: 100px;
@@ -27,35 +27,35 @@ a:hover {
 
 header {
     text-align: center;
-    font-size: 2em;
-    margin-top: 1em;
     margin-left: 5%;
     margin-right: 5%;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     margin-bottom: 0.2em;
 }
 
 h2 {
-    font-size: 3.5em;
+    font-size: 1.7em;
+    margin-top: 2em;
+    margin-bottom: 0.2em;
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 1.3em;
+    margin-top: 0;
     margin-bottom: 0;
 }
 
 h4 {
     color: #4e4e4e;
-    font-size: 1.5em;
+    font-size: 1.1em;
     margin-top: 0;
 }
 
 .profile {
     font-family: Montserrat;
-    font-size: 1em;
     margin: 0.5em;
 }
 
@@ -99,19 +99,16 @@ h4 {
 
 p {
     font-family: 'Open Sans';
-    font-size: 1.5em;
 }
 
 li {
     font-family: 'Open Sans';
-    font-size: 1.5em;
 }
 
 .keywords {
     background-color: #333333;
     color: #fff;
     padding: 6px;
-    font-size: 1.2em;
     margin-bottom: 5px;
     display: inline-block;
 }
@@ -176,32 +173,10 @@ section.skills {
 
 @media print {
 
-    header {
-        font-size: 1em;
+    body {
+        font-size:0.7em;
     }
-    h1 {
-        font-size: 2em;
-    }
-    h2 {
-        font-size: 1.5em;
-    }
-    h3 {
-        font-size: 1.2em;
-        -webkit-margin-before: 0;
-        -webkit-margin-after:0
-    }
-    h3.label {
-        display: none;
-    }
-    h4 {
-        font-size: 1.1em;
-    }
-    p {
-        font-size: 1em;
-    }
-    li { 
-        font-size: 1em;
-    }
+
     .address {
         display: inline-block
     }
@@ -223,8 +198,9 @@ section.skills {
     section.skills section {
         margin-right: 10em
     }
+
     .skills{
-        margin-bottom: 10px;
+        page-break-inside: avoid;
     }
 
     .main{
