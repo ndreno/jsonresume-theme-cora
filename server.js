@@ -16,7 +16,7 @@ spawn('open', ['http://localhost:8080/']);
 
 function render() {
 	try {
-		var private_resume = JSON.parse(fs.readFileSync("../json-resume/resume.json", "utf-8"));
+		var private_resume = JSON.parse(fs.readFileSync("resume.json", "utf-8"));
 		return theme.render(private_resume);
 	} catch(e) {
 		console.log("Error: " + e.message);
