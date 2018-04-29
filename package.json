@@ -1,6 +1,6 @@
 {
   "name": "jsonresume-theme-cora",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "An uber-classy JSONResume theme, that is print friendly too!",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,8 @@
   "dependencies": {
     "dateformat": "^3.0.2",
     "handlebars": "^4.0.6",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.10",
+    "npm": "^6.0.0",
     "resume-schema": "0.0.16",
     "tarball-extract": "0.0.6"
   },
