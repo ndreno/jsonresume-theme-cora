@@ -9,12 +9,12 @@
   "author": "Marco Pagliari",
   "license": "MIT",
   "dependencies": {
-    "dateformat": "^3.0.3",
-    "handlebars": "^4.1.2",
-    "lodash": "^4.17.15",
-    "npm": "^6.11.2",
-    "resume-schema": "0.0.18",
-    "tarball-extract": "0.0.6"
+    "dateformat": "^5.0.3",
+    "handlebars": "^4.7.7",
+    "lodash": "^4.17.21",
+    "npm": "^9.1.2",
+    "resume-schema": "1.0.0",
+    "tarball-extract": "^0.0.3"
   },
   "repository": {
     "type": "git",
