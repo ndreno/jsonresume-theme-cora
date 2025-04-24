@@ -8,7 +8,7 @@
 
 		<div id= "contact">
 			<span class= "contact-header">
-				<a href="https://maps.google.com/?q={{resume.basics.location.city}}, {{resume.basics.location.region}}, {{resume.basics.location.countryCode}}"><i title="ADDRESS" class="fa fa-map-marker left"></i>&nbsp;{{#if resume.basics.location.address}} {{resume.basics.location.address}}, {{/if}}{{resume.basics.location.city}}, {{resume.basics.location.region}}, {{resume.basics.location.countryCode}}</a>
+				<a href="https://maps.google.com/?q={{resume.basics.location.city}}, {{resume.basics.location.region}}, {{resume.basics.location.countryCode}}"><i title="ADDRESS" class="fa fa-map-marker left"></i>&nbsp;{{#if resume.basics.location.address}} {{resume.basics.location.address}}, {{/if}} {{#if resume.basics.location.city}} {{resume.basics.location.city}},{{/if}} {{#if resume.basics.location.region}}{{resume.basics.location.region}},{{/if}}{{#if resume.basics.location.countryCode}} {{resume.basics.location.countryCode}}{{/if}}</a>
 			</span>
 			<br/><br/>
 			{{#if resume.basics.email}}
