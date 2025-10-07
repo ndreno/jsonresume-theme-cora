@@ -6,9 +6,13 @@
 			<img src= "{{resume.basics.picture}}" class= "picture">
 		{{/if}}
 
+		<button onclick="window.print()" class="download-btn">
+        	<i class="fa fa-download"></i> Download as PDF
+   		</button>
+
 		<div id= "contact">
 			<span class= "contact-header">
-				<a href="https://maps.google.com/?q={{resume.basics.location.city}}, {{resume.basics.location.region}}, {{resume.basics.location.countryCode}}"><i title="ADDRESS" class="fa fa-map-marker left"></i>&nbsp;{{#if resume.basics.location.address}} {{resume.basics.location.address}}, {{/if}} {{#if resume.basics.location.city}} {{resume.basics.location.city}},{{/if}} {{#if resume.basics.location.region}}{{resume.basics.location.region}},{{/if}}{{#if resume.basics.location.countryCode}} {{resume.basics.location.countryCode}}{{/if}}</a>
+				<a href="https://maps.google.com/?q={{resume.basics.location.city}}, {{resume.basics.location.region}}, {{resume.basics.location.country}}"><i title="ADDRESS" class="fa fa-map-marker left"></i>&nbsp;{{#if resume.basics.location.address}} {{resume.basics.location.address}}, {{/if}} {{#if resume.basics.location.city}} {{resume.basics.location.city}},{{/if}} {{#if resume.basics.location.region}}{{resume.basics.location.region}},{{/if}}{{#if resume.basics.location.country}} {{resume.basics.location.country}}{{/if}}</a>
 			</span>
 			<br/><br/>
 			{{#if resume.basics.email}}
