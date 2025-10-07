@@ -225,6 +225,9 @@ blockquote .name {
     /* This rule hides the download button */
     .download-btn { display: none !important; }
 
+    /* This rule hides the language switcher */
+    .language-switcher { display: none !important; }
+
     /* It makes the company logos smaller only for printing */
     .company-logo {
         max-width: 60px !important;
