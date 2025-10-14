@@ -1,0 +1,18 @@
+{{#if resume.certifications}}
+<section id="certifications">
+	<h2><i class="fa fa-trophy left"></i> Certifications</h2>
+	{{#each resume.certifications}}
+		<h3>{{title}} - {{certificationer}}</h3>
+		{{#if date}}
+			<h4>{{date}}</h4>
+		{{/if}}
+		{{#if credentialUrl}}
+			<p>
+				<a href="{{credentialUrl}}" target="_blank" rel="noopener noreferrer">
+					View Credential
+				</a>
+			</p>
+		{{/if}}
+	{{/each}}
+</section>
+{{/if}}

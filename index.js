@@ -60,10 +60,10 @@ function render(resumeObject) {
 		}
 	}
 
-	if (resumeObject.awards) {
-		if (resumeObject.awards[0].title) {
-			resumeObject.awardsBool = true;
-			_.each(resumeObject.awards, function (a) {
+	if (resumeObject.certifications) {
+		if (resumeObject.certifications[0].title) {
+			resumeObject.certificationsBool = true;
+			_.each(resumeObject.certifications, function (a) {
 				if(a.date)
 				a.date = dateFormat(new Date(a.date), "yyyy-mmm");
 			});
